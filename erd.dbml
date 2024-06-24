@@ -18,7 +18,13 @@ Table order {
   styleId int
   sizeId int
   metalId int
+  typeId int
   timestamp datetime
+}
+Table types {
+  id int [pk]
+  type varchar
+  price float
 }
 
 Ref: "styles"."id" < "order"."styleId"
@@ -26,3 +32,5 @@ Ref: "styles"."id" < "order"."styleId"
 Ref: "sizes"."id" < "order"."sizeId"
 
 Ref: "metals"."id" < "order"."metalId"
+
+Ref: "types"."id" < "order"."typeId"
