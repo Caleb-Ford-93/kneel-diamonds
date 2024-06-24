@@ -1,0 +1,148 @@
+{
+  "styles": [
+    {
+      "id": 1,
+      "style": "Classic",
+      "price": 500
+    },
+    {
+      "id": 2,
+      "style": "Modern",
+      "price": 710
+    },
+    {
+      "id": 3,
+      "style": "Vintage",
+      "price": 965
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "type": "Ring",
+      "price": 1
+    },
+    {
+      "id": 2,
+      "type": "Earring",
+      "price": 2
+    },
+    {
+      "id": 3,
+      "type": "Necklace",
+      "price": 4
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "carets": 0.5,
+      "price": 405
+    },
+    {
+      "id": 2,
+      "carets": 0.75,
+      "price": 782
+    },
+    {
+      "id": 3,
+      "carets": 1,
+      "price": 1470
+    },
+    {
+      "id": 4,
+      "carets": 1.5,
+      "price": 1997
+    },
+    {
+      "id": 5,
+      "carets": 2,
+      "price": 3638
+    }
+  ],
+  "metals": [
+    {
+      "id": 1,
+      "metal": "Sterling Silver",
+      "price": 12.42
+    },
+    {
+      "id": 2,
+      "metal": "14K Gold",
+      "price": 736.4
+    },
+    {
+      "id": 3,
+      "metal": "24K Gold",
+      "price": 1258.9
+    },
+    {
+      "id": 4,
+      "metal": "Platinum",
+      "price": 795.45
+    },
+    {
+      "id": 5,
+      "metal": "Palladium",
+      "price": 1241
+    }
+  ],
+  "orders": [
+    {
+      "styleId": 1,
+      "sizeId": 2,
+      "metalId": 1,
+      "typeId": "1",
+      "timestamp": 0,
+      "id": 1
+    },
+    {
+      "styleId": 1,
+      "sizeId": 2,
+      "metalId": 1,
+      "typeId": "2",
+      "timestamp": 0,
+      "id": 2
+    },
+    {
+      "styleId": 1,
+      "sizeId": 2,
+      "metalId": 1,
+      "typeId": "3",
+      "timestamp": 0,
+      "id": 3
+    },
+    {
+      "styleId": 1,
+      "sizeId": 2,
+      "metalId": 1,
+      "typeId": "1",
+      "timestamp": 0,
+      "id": 4
+    },
+    {
+      "styleId": 1,
+      "sizeId": 2,
+      "metalId": 1,
+      "typeId": "3",
+      "timestamp": 0,
+      "id": 5
+    },
+    {
+      "styleId": 1,
+      "sizeId": 1,
+      "metalId": 1,
+      "typeId": "1",
+      "timestamp": 0,
+      "id": 6
+    },
+    {
+      "styleId": 1,
+      "sizeId": 1,
+      "metalId": 1,
+      "typeId": "3",
+      "timestamp": 0,
+      "id": 7
+    }
+  ]
+}

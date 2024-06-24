@@ -1,0 +1,28 @@
+Table styles {
+  id int [pk]
+  style varchar
+  price float
+}
+Table sizes {
+  id int [pk]
+  carats decimal
+  price float
+}
+Table metals {
+  id int [pk]
+  metal varchar
+  price float
+}
+Table order {
+  id int [pk]
+  styleId int
+  sizeId int
+  metalId int
+  timestamp datetime
+}
+
+Ref: "styles"."id" < "order"."styleId"
+
+Ref: "sizes"."id" < "order"."sizeId"
+
+Ref: "metals"."id" < "order"."metalId"
