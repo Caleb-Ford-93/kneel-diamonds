@@ -52,3 +52,7 @@ export const resetTransientState = () => {
         "timestamp": 0,
     }
 }
+
+export const getTransientState = () => {
+    return transientState
+}

@@ -8,7 +8,7 @@ import { resetTransientState } from './TransientState.js'
 
 const container = document.querySelector("#container")
 
-const render = async () => {
+export const render = async () => {
     const metalOptionsHTML = await MetalOptions()
     const styleOptionsHTML = await StyleOptions()
     const sizeOptionsHTML = await SizeOptions()
